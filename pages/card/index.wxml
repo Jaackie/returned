@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class="container">
+  <view class="search">
+    <input type='text' placeholder='搜索'></input>
+  </view>
+  <view class="card-list">
+    <view class='char'>
+      <view class='content'>G</view>
+    </view>
+    <view class='card'>
+      <image class='avatar'></image>
+      <view class='card-info'>
+        <view class='info-top'><text class='name'>龚闫杰</text><image class='sex' src='../../images/male.png'></image></view>
+        <view class='info-bot'>英国皇家艺术学院（RCA）</view>
+      </view>
+      <image class='phone' src='../../images/phone.png'></image>
+    </view>
+    <view class='card'>
+      <image class='avatar'></image>
+      <view class='card-info'>
+        <view class='info-top'><text class='name'>龚闫杰</text><image class='sex' src='../../images/male.png'></image></view>
+        <view class='info-bot'>英国皇家艺术学院（RCA）</view>
+      </view>
+      <image class='phone' src='../../images/phone.png'></image>
+    </view>
+  </view>
+</view>

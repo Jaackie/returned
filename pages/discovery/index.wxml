@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class="list">
+    <view class="card">
+        <view class='content'>
+          <view class="title">SLEEP NO MORE丨 百鬼来袭 开启鹭岛不眠之夜</view>
+          <image class="image" src="http://f.4399biule.com/f/2017/08/04/14_OzFNgnalb7.270x187.jpg~360x360"></image>
+          <view class="info">10.28海归之家万圣节狂欢之夜，名额有限，报名从速~</view>
+        </view>
+    </view>
+    <view class="card">
+        <view class='content'>
+          <view class="title">SLEEP NO MORE丨 百鬼来袭 开启鹭岛不眠之夜</view>
+          <image class="image" src="http://f.4399biule.com/f/2017/08/04/14_OzFNgnalb7.270x187.jpg~360x360"></image>
+          <view class="info">10.28海归之家万圣节狂欢之夜，名额有限，报名从速~</view>
+        </view>
+    </view>
+</view>

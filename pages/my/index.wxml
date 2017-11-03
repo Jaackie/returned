@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class='my'>
+  <view class='info'>
+    <view class='content' bindtap='toMyCard'>
+      <view class='c-left'>
+        <view class='name'>龚闫杰</view>
+        <view class='info-line'>
+          <text class='field'>伦敦</text>
+          <text class='value'>英国皇家艺术学院（RCA）</text>
+        </view>
+        <view class='info-line'>
+          <text class='field'>电话</text>
+          <text class='value'>18059844605</text>
+        </view>
+      </view>
+      <image class='avatar wbg'></image>
+    </view>
+  </view>
+  <view class='options wbg row'>
+    <button class='opt wbg grey'>编辑名片</button>
+    <button class='opt gbg white'>分享名片</button>
+  </view>
+  <view class='btn-group'>
+    <view class='btn-area'>
+      <view class='btn row'>
+        <text class='btn-name'>我的消息</text>
+        <image class='btn-icon' src='../../images/btn-icon.png'></image>
+      </view>
+      <view class='btn row'>
+        <text class='btn-name'>我的认证</text>
+        <image class='btn-icon' src='../../images/btn-icon.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='btn-group'>
+    <view class='btn-area'>
+      <view class='btn row'>
+        <text class='btn-name'>隐私设置</text>
+        <image class='btn-icon' src='../../images/btn-icon.png'></image>
+      </view>
+      <view class='btn row'>
+        <text class='btn-name'>关于海归之家</text>
+        <image class='btn-icon' src='../../images/btn-icon.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

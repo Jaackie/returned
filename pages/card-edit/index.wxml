@@ -1,0 +1,127 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class='my'>
+  <view class='info'>
+    <view class='content'>
+      点击更换名片背景图
+    </view>
+  </view>
+  <view class='info-group-name'>基本信息</view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>姓名
+            <text class='required'>*</text>
+          </view>
+          <view class='info-value'>龚闫杰</view>
+        </view>
+      </view>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>头像</view>
+          <view class='info-value'>
+            <image class='avatar gbg'></image>
+          </view>
+        </view>
+        <image class='info-icon' src='../../images/btn-icon.png'></image>
+      </view>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>性别
+            <text class='required'>*</text>
+          </view>
+          <view class='info-value'>男</view>
+        </view>
+        <image class='info-icon' src='../../images/btn-icon.png'></image>
+      </view>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>生日
+            <text class='required'>*</text>
+          </view>
+          <view class='info-value'>1993.06.05 双子座</view>
+        </view>
+        <image class='info-icon' src='../../images/btn-icon.png'></image>
+      </view>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>学校
+            <text class='required'>*</text>
+          </view>
+          <view class='info-value'>伦敦 英国皇家艺术学院（RCA）</view>
+        </view>
+      </view>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>电话
+            <text class='required'>*</text>
+          </view>
+          <view class='info-value'>18059844605</view>
+        </view>
+      </view>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>微信</view>
+          <view class='info-value'>gonggong2633</view>
+        </view>
+      </view>
+      <view class='info-item row {{info_more?"hide":""}}' bindtap='clkInfoMore'>
+        <view class='btn-more row'>
+          填写更多信息
+        </view>
+        <image class='info-icon' src='../../images/btn-icon.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name {{info_more?"":"hide"}}'>公司信息</view>
+  <view class='info-group {{info_more?"":"hide"}}'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>职位</view>
+          <view class='info-value'>产品</view>
+        </view>
+      </view>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>公司</view>
+          <view class='info-value'>四三九九</view>
+        </view>
+      </view>
+      <view class='info-item row'>
+        <view class='row'>
+          <view class='info-name'>行业</view>
+          <view class='info-value'>IT互联网</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name {{info_more?"":"hide"}}'>个人简介</view>
+  <view class='info-group other {{info_more?"":"hide"}}'>
+    <view class='info-area'>
+      <view class='info-item'>
+        <view class='info-value'>
+          我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name {{info_more?"":"hide"}}'>相册</view>
+  <view class='info-group other {{info_more?"":"hide"}}'>
+    <view class='info-area'>
+      <view class='info-item'>
+        <view class='info-value row'>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

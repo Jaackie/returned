@@ -1,0 +1,80 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class='my'>
+  <view class='info'>
+    <view class='content'>
+      <view class='c-left'>
+        <view class='name'>龚闫杰</view>
+        <view class='info-line'>
+          <text class='field'>伦敦</text>
+          <text class='value'>英国皇家艺术学院（RCA）</text>
+        </view>
+        <view class='info-line'>
+          <text class='field'>电话</text>
+          <text class='value'>18059844605</text>
+        </view>
+      </view>
+      <image class='avatar wbg'></image>
+    </view>
+  </view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <view class='info-name'>性别</view>
+        <view class='info-value'>男</view>
+      </view>
+      <view class='info-item row'>
+        <view class='info-name'>生日</view>
+        <view class='info-value'>1993.06.05 双子座</view>
+      </view>
+      <view class='info-item row'>
+        <view class='info-name'>微信</view>
+        <view class='info-value'>gonggong2633</view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>公司信息</view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <view class='info-name'>职位</view>
+        <view class='info-value'>产品</view>
+      </view>
+      <view class='info-item row'>
+        <view class='info-name'>公司</view>
+        <view class='info-value'>四三九九</view>
+      </view>
+      <view class='info-item row'>
+        <view class='info-name'>行业</view>
+        <view class='info-value'>IT互联网</view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>个人简介</view>
+  <view class='info-group other'>
+    <view class='info-area'>
+      <view class='info-item'>
+        <view class='info-value'>
+          我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>相册</view>
+  <view class='info-group other'>
+    <view class='info-area'>
+      <view class='info-item'>
+        <view class='info-value row'>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+          <image class='img'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

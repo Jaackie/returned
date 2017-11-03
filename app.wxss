@@ -1,0 +1,39 @@
+/**app.wxss**/
+page{
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+.wbg{
+  background-color: #fff;
+}
+
+.gbg{
+  background-color: #666666;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.white{
+  color: #fff;
+}
+
+.grey{
+  color: #666666;
+}
