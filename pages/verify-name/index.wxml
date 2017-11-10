@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class='my'>
+  <view class='info-group-name'>姓名</view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <input class='info-value' placeholder='输入您的姓名' placeholder-style='color:#333;'></input>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>身份证号</view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <input class='info-value' placeholder='输入您的身份证号' placeholder-style='color:#333;'></input>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>上传身份证正面照片</view>
+  <view class='info-group other'>
+    <view class='info-area'>
+      <view class='info-item'>
+        <view class='info-value row'>
+          <image class='img' src='../../images/img-add.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>上传身份证反面照片</view>
+  <view class='info-group other'>
+    <view class='info-area'>
+      <view class='info-item'>
+        <view class='info-value row'>
+          <image class='img' src='../../images/img-add.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>
+    <button class='btn gbg'>我要认证</button>
+  </view>
+</view>

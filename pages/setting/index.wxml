@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+
+<view class='container'>
+  <view class='group-name'>名片隐私设置</view>
+  <view class='setting-group'>
+    <view class='item row'>
+      <view class='name'>显示电话号码</view>
+      <switch class='option' checked></switch>
+    </view>
+    <view class='item row'>
+      <view class='name'>显示XXXXXXX</view>
+      <switch class='option'></switch>
+    </view>
+  </view>
+</view>

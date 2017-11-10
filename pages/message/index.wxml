@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="card-list">
+    <view class='char'></view>
+    <view class='card' bindtap='toPage' data-page='message-card'>
+      <view class='row'>
+        <image class='avatar'></image>
+        <view class='card-info'>名片消息</view>
+      </view>
+      <view class='num'>2</view>
+    </view>
+    <view class='card' bindtap='toPage' data-page='message-system'>
+      <view class='row'>
+        <image class='avatar'></image>
+        <view class='card-info'>系统消息</view>
+      </view>
+    </view>
+  </view>
+</view>

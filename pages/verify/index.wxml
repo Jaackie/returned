@@ -1,0 +1,62 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class='my'>
+  <view class='info-group-name'></view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row' bindtap='toVerify' data-to='name'>
+        <view class='info-name'>实名认证
+          <text class='required'>*</text>
+        </view>
+        <view class='row'>
+          <view class='info-value'>龚闫杰</view>
+          <image class='info-icon' src='../../images/btn-icon.png'></image>
+        </view>
+      </view>
+      <view class='info-item row'  bindtap='toVerify' data-to='edu'>
+        <view class='info-name'>学历认证
+          <text class='required'>*</text>
+        </view>
+        <view class='row'>
+          <image class='info-icon' src='../../images/btn-icon.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'></view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row' bindtap='toVerify' data-to='phone'>
+        <view class='info-name'>手机认证
+          <text class='required'>*</text>
+        </view>
+        <view class='row'>
+          <view class='info-value'>180*****605</view>
+          <image class='info-icon' src='../../images/btn-icon.png'></image>
+        </view>
+      </view>
+      <view class='info-item row' bindtap='toVerify' data-to='email'>
+        <view class='info-name'>邮箱认证
+        </view>
+        <view class='row'>
+          <image class='info-icon' src='../../images/btn-icon.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'></view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row' bindtap='toVerify' data-to='company'>
+        <view class='info-name'>公司认证
+        </view>
+        <view class='row'>
+          <image class='info-icon' src='../../images/btn-icon.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>
+    <button class='btn gbg'>我要认证</button>
+  </view>
+</view>

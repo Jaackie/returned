@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+
+<view class='container'>
+  <view class='info column gbg'>
+    <view class='icon wbg'></view>
+    <view class='version'>v1.0.0</view>
+    <view class='intro'>一个围绕海归伙伴们生活，社交，工作，创业等的社区化服务平台。</view>
+  </view>
+  <view class='card-group'>
+    <view class='card'>
+      <view class='title'>v1.1.0</view>
+      <view class='content'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</view>
+    </view>
+    <view class='card'>
+      <view class='title'>v1.0.0</view>
+      <view class='content'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</view>
+    </view>
+  </view>
+</view>

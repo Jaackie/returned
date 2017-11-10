@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class='my'>
+  <view class='info-group-name'>手机号</view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <input class='info-value' placeholder='输入您的手机号' placeholder-style='color:#333;'></input>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>验证码</view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <input class='info-value' placeholder='输入4位数验证码' placeholder-style='color:#333;'></input>
+        <button class='btnVerifyCode'>获取验证码</button>
+      </view>
+      
+    </view>
+  </view>
+  <view class='info-group-name'>
+    <button class='btn gbg'>确定</button>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/message-system/index.wxml-->
+<view class='container'>
+  <view class='card-group'>
+    <view class='card'>
+      <view class='title'>报名成功!</view>
+      <view class='content'>贡献你成功报名“SLEEP NO MORE丨 百鬼来袭 开启鹭岛不眠之夜”活动</view>
+    </view>
+    <view class='card'>
+      <view class='title'>信息审核通过</view>
+      <view class='content'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</view>
+    </view>
+  </view>
+  <view class='card-group'>
+    <view class='card'>
+      <view class='title'>信息审核失败</view>
+      <view class='content'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</view>
+    </view>
+  </view>
+</view>

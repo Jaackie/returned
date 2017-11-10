@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
-  height: auto;
+  height: 100%;
 }
 
 .info {
@@ -64,7 +64,6 @@
 }
 
 .info-value {
-  margin-left: 20px;
   color: #333;
 }
 
@@ -98,9 +97,8 @@
 }
 
 .other .info-item {
-  width: 750rpx;
   height: auto;
-  padding: 10px 0;
+  padding: 35rpx;
 }
 
 .other .info-value {
@@ -112,7 +110,7 @@
   height: 60px;
   background-color: #999;
   margin-right: 10px;
-  margin-bottom: 10px;
+  border: 1rpx solid #f2f2f2;
 }
 
 .hide {
@@ -128,7 +126,7 @@
   margin-left: 5px;
 }
 
-.save {
+.btn {
   width: 680rpx;
   height: 42px;
   font-family: '微软雅黑 Regular', '微软雅黑';
@@ -136,5 +134,5 @@
   font-style: normal;
   font-size: 16px;
   color: #fff;
-  margin-bottom: 10px;
+  margin-top: 20px;
 }

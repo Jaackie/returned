@@ -7,14 +7,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    info_more: false
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    var that = this;
+    wx.request({
+      url: 'https://api.it120.cc/' + app.globalData.subDomain + '/notice/detail',
+      data: {
+        id: options.id
+      },
+      success: function (res) {
+        if (res.data.code == 0) {
+          that.setData({
+            notice: res.data.data
+          });
+          WxParse.wxParse('article', 'html', res.data.data.content, that, 5);
+        }
+      }
+    })
   },
 
   /**
@@ -64,5 +78,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  toVerify: function (event) {
+    wx.navigateTo({
+      url: '/pages/verify-' + event.target.dataset.to + '/index',
+    })
   }
 })

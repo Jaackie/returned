@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+
+<view class='container'>
+  <view class='card-group'>
+    <view class='card'>
+      <image class='avatar gbg'></image>
+      <view class='info column'>
+        <text class='name'>昵称昵称</text>
+        <text class='action'>申请交换名片</text>
+      </view>
+    </view>
+    <view class='card'>
+      <image class='avatar gbg'></image>
+      <view class='info column'>
+        <text class='name'>昵称昵称</text>
+        <text class='action'>收藏了你的名片</text>
+      </view>
+    </view>
+    <view class='card'>
+      <image class='avatar gbg'></image>
+      <view class='info column'>
+        <text class='name'>昵称昵称</text>
+        <text class='action'>申请交换名片</text>
+      </view>
+    </view>
+  </view>
+  <view class='card-group'>
+    <view class='card'>
+      <image class='avatar gbg'></image>
+      <view class='info column'>
+        <text class='name'>昵称昵称</text>
+        <text class='action'>收藏了你的名片</text>
+      </view>
+    </view>
+    <view class='card'>
+      <image class='avatar gbg'></image>
+      <view class='info column'>
+        <text class='name'>昵称昵称</text>
+        <text class='action'>申请交换名片</text>
+      </view>
+    </view>
+  </view>
+
+</view>

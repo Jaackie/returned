@@ -114,14 +114,12 @@
         <view class='info-value row'>
           <image class='img'></image>
           <image class='img'></image>
-          <image class='img'></image>
-          <image class='img'></image>
-          <image class='img'></image>
-          <image class='img'></image>
-          <image class='img'></image>
-          <image class='img'></image>
         </view>
       </view>
     </view>
+  </view>
+  <view class='info-group-name'><checkbox class='chkRead' checked/><text class='readText'>已阅读并同意《相关条款》</text></view>
+  <view class='info-group-name'>
+      <button class='save gbg'>保存</button>
   </view>
 </view>

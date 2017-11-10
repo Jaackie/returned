@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class='my'>
+  <view class='info-group-name'>公司名</view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <input class='info-value' placeholder='输入您的公司名称' placeholder-style='color:#333;'></input>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>公司地址</view>
+  <view class='info-group'>
+    <view class='info-area'>
+      <view class='info-item row'>
+        <input class='info-value' placeholder='输入您的公司地址' placeholder-style='color:#333;'></input>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>上传相关证明照片</view>
+  <view class='info-group other'>
+    <view class='info-area'>
+      <view class='info-item'>
+        <view class='info-value row'>
+          <image class='img' src='../../images/img-add.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='info-group-name'>
+    <button class='btn gbg'>保存</button>
+  </view>
+</view>

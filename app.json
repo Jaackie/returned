@@ -1,11 +1,22 @@
 {
   "pages": [
-    "pages/card-edit/index",
-    "pages/my/index",
-    "pages/card/index",
     "pages/discovery/index",
-    "pages/my-card/index",
+    "pages/my/index",
+    "pages/verify/index",
+    "pages/verify-company/index",
+    "pages/verify-email/index",
+    "pages/verify-phone/index",
+    "pages/verify-edu/index",
+    "pages/verify-name/index",
+    "pages/card/index",
     "pages/index/index",
+    "pages/my-card/index",
+    "pages/card-edit/index",
+    "pages/message/index",
+    "pages/message-card/index",
+    "pages/message-system/index",
+    "pages/setting/index",
+    "pages/about/index",
     "pages/goods-details/index",
     "pages/shop-cart/index",
     "pages/to-pay-order/index",
@@ -30,12 +41,6 @@
     "backgroundColor": "#fff",
     "box-shadow": "0 0 6px 0",
     "list": [
-      {
-        "pagePath": "pages/card-edit/index",
-        "iconPath": "images/nav/home-off.png",
-        "selectedIconPath": "images/nav/home-on.png",
-        "text": "编辑名片"
-      },
       {
         "pagePath": "pages/discovery/index",
         "iconPath": "images/nav/home-off.png",

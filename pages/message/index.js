@@ -1,5 +1,4 @@
 var app = getApp();
-var WxParse = require('../../wxParse/wxParse.js');
 
 Page({
 
@@ -64,5 +63,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  toPage: function (event) {
+    wx.navigateTo({
+      url: '/pages/' + event.target.dataset.page + '/index',
+    })
   }
 })
